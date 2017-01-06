@@ -7,7 +7,6 @@
 // ==/UserScript==
 
 $("body").keydown(function(e){
-    console.log("Keydown catcher active")
     // Navigate to next question on right arrow
     if(e.keyCode==39){
 	$(".btn-primary > .fa-arrow-right").parent().click()
